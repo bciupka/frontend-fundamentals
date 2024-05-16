@@ -100,12 +100,15 @@ function revealAnswers() {
     if (!question) {
         alert('It\'s not a riddle');
     } else {
-        console.log(question.textContent);
-        const answer = data.riddles.find(item => { item.question == question.textContent });
-        // alert(answer);
-        console.log(answer.answer);
+        let answer = data.riddles.find(item => item.question === question.textContent);
+        alert(answer.answer);
     };
 
+}
+
+
+function goToHomepage() {
+    window.location.reload();
 }
 
 /**
