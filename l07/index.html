@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lesson 7 Challenge</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+    <!-- Notice how we have used "semantic HTML" here -->
+    <!-- Re-read the lesson if you don't understand what that means -->
+    <!-- https://www.zachgollwitzer.com/posts/2021/fullstack-developer-series/7-html-crash-course-->
+    <main>
+        <section class="content">
+            <h1>My first webpage</h1>
+            <p>My name is Bart, im just learning to code</p>
+            <p><a href="https://github.com/bciupka" target="_blank">Thats my github,</a> I'm commiting my small projects
+                here</p>
+            <ul>
+                <li>Majority of projects in Python</li>
+                <li>Mainly web development</li>
+                <li>But also some other courses</li>
+            </ul>
+            <p>Here's pic from my github account</p>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3P_wIcSLswMiUFjbj6R2yNmmEOvXgDb6U7Zn51hn5GZ_DhcPNWPpQ4cdfsMerysfT8rw&usqp=CAU"
+                alt="Platypus">
+        </section>
+
+        <!-- No need to change anything in this section -->
+        <section class="sidebar">
+            <h2>Actions</h2>
+            <button onclick="showMeme()">Show a Meme</button>
+            <button onclick="showJoke()">Tell Me a Joke</button>
+            <button onclick="showQuote()">Random Quote</button>
+            <button onclick="showRiddle()">Riddle me</button>
+            <button class="reveal-btn" onclick="revealAnswers()">
+                Reveal Riddle Answer
+            </button>
+            <!-- <p class="attribution">
+                Code challenge by
+                <a href="https://www.twitter.com/zg_dev" target="_top">@zg_dev</a>
+            </p> -->
+        </section>
+    </main>
+    <script src="./script.js"></script>
+</body>
+
+</html>
