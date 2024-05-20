@@ -8,6 +8,12 @@ html {
     box-sizing: inherit;
 }
 
+h2,
+h4,
+p {
+    margin: 0;
+}
+
 #container {
     width: 1000px;
     height: 600px;
@@ -32,6 +38,7 @@ html {
     width: 50%;
     height: 100%;
     border: 2px solid red;
+    vertical-align: top;
 }
 
 #bottom-right-section {
@@ -40,4 +47,5 @@ html {
     width: 50%;
     height: 100%;
     border: 2px solid violet;
+    vertical-align: top;
 }
