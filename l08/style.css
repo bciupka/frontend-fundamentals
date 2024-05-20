@@ -1,0 +1,43 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+#container {
+    width: 1000px;
+    height: 600px;
+    border: 2px solid green;
+}
+
+#top-section {
+    width: 100%;
+    height: 40%;
+    border: 2px solid blue;
+}
+
+#bottom-section {
+    width: 100%;
+    height: 60%;
+    border: 2px solid yellow;
+}
+
+#bottom-left-section {
+    display: inline-block;
+    margin-right: -2px;
+    width: 50%;
+    height: 100%;
+    border: 2px solid red;
+}
+
+#bottom-right-section {
+    display: inline-block;
+    margin-left: -2px;
+    width: 50%;
+    height: 100%;
+    border: 2px solid violet;
+}
