@@ -1,5 +1,7 @@
 html {
     box-sizing: border-box;
+    font-family: Karla;
+    font-size: 16px;
 }
 
 *,
@@ -19,7 +21,7 @@ body {
 }
 
 #container {
-    width: 700px;
+    width: 600px;
     height: 400px;
     box-shadow: 3px 3px 37px -15px rgba(66, 68, 90, 1);
     border-radius: 10px;
@@ -29,7 +31,7 @@ body {
 #top-section {
     width: 100%;
     height: 45%;
-    padding: 25px;
+    padding: 30px;
 }
 
 #bottom-section {
@@ -45,7 +47,37 @@ body {
     height: 100%;
     background-color: #2BB3B0;
     vertical-align: top;
-    padding: 20px;
+    padding: 30px;
+}
+
+#bottom-left-section h4 {
+    margin-bottom: 20px;
+}
+
+#bottom-left-section p {
+    font-size: 0.8rem;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    opacity: 0.9;
+}
+
+#price-freq,
+#price {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+#price {
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+
+#price-freq {
+    margin-left: 5px;
+    font-size: 0.8rem;
+    opacity: 0.6;
+
 }
 
 #bottom-right-section {
@@ -55,7 +87,7 @@ body {
     height: 100%;
     background-color: #4ABEBD;
     vertical-align: top;
-    padding: 20px;
+    padding: 30px;
 }
 
 #top-section h2 {
@@ -73,5 +105,26 @@ body {
 }
 
 button {
-    color: white;
+    color: whitesmoke;
+    background-color: #C0DF34;
+    border: none;
+    padding: 15px;
+    width: 90%;
+    border-radius: 5px;
+    box-shadow: 3px 3px 37px -15px rgba(66, 68, 90, 1);
+    font-size: inherit;
+    margin-left: 3%;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+    font-size: 0.9rem;
+    opacity: 0.9;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #B1CF30;
+    transform: scale(1.02);
 }
