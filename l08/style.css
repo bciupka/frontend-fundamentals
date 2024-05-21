@@ -128,3 +128,14 @@ button:hover {
     background-color: #B1CF30;
     transform: scale(1.02);
 }
+
+@media screen and (max-width: 650px) {
+
+    #bottom-left-section,
+    #bottom-right-section,
+    #container {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+    }
+}
