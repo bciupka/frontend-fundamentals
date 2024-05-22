@@ -46,12 +46,13 @@ body {
 
 @media screen and (min-width: 576px) {
 
-    .grid-item {
-        margin: 0;
+    #main-left .grid-item {
+        margin-bottom: 15px;
+        margin-right: 15px;
     }
 
     #testimonial-container {
-        max-width: 800px;
+        max-width: 1000px;
         margin: 0 auto;
     }
 
