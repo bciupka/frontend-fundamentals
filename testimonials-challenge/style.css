@@ -19,6 +19,7 @@ body {
 #testimonial-1 {
     background-color: #7541c8;
     color: #ffffff;
+    position: relative;
 }
 
 #testimonial-2 {
@@ -26,8 +27,9 @@ body {
     color: #ffffff;
 }
 
-#testimonial-3 {
+#testimonial-3 , #testimonial-5{
     background-color: #ffffff;
+    color: #48556a;
 }
 
 #testimonial-4 {
@@ -35,13 +37,59 @@ body {
     color: #ffffff;
 }
 
-#testimonial-5 {
-    background-color: #ffffff;
-}
-
 .grid-item {
     margin-bottom: 20px;
     padding: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px 1px rgba(0, 0, 0, 0.2);
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-size: 13px;
+}
+
+#quote {
+    position: absolute;
+    right: 15px;
+    top: 5px;
+    z-index: 0;
+    opacity: 70%;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.header .header-text {
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.position {
+    opacity: 50%;
+}
+
+.name {
+    font-size: 1rem;
+}
+
+.header img {
+    margin-right: 15px;
+    width: 45px;
+    border-radius: 50%;
+    border: 2px solid rgba(204, 129, 247, 0.6);
+}
+
+.grid-item  h4 {
+    margin: 10px 0;
+    font-size: 1.2rem;
+    font-weight: 600;
+    position: relative;
+    z-index: 1;
+}
+
+.experience {
+    opacity: 70%;
 }
 
 @media screen and (min-width: 576px) {
