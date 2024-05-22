@@ -43,3 +43,46 @@ body {
     margin-bottom: 20px;
     padding: 20px;
 }
+
+@media screen and (min-width: 576px) {
+
+    .grid-item {
+        margin: 0;
+    }
+
+    #testimonial-container {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    #testimonial-container,
+    #top-left,
+    #bottom-left {
+        display: flex;
+    }
+
+
+    #testimonial-5 {
+        flex-basis: 25%;
+    }
+
+    #top-left,
+    #bottom-left {
+        flex-basis: 50%;
+    }
+
+    #main-left {
+        flex-direction: column;
+        flex-basis: 75%;
+    }
+
+    #testimonial-1,
+    #testimonial-4 {
+        flex-basis: 65%;
+    }
+
+    #testimonial-2,
+    #testimonial-3 {
+        flex-basis: 35%;
+    }
+}
